@@ -1,0 +1,182 @@
+{
+  "timestamp": "2026-09-29T10:36:32.638Z",
+  "samplePages": 3,
+  "testedPayloads": 20,
+  "fidelity": {
+    "psnrDb": {
+      "average": 41.12,
+      "min": 40.61,
+      "max": 41.59,
+      "thresholdRequirement": ">= 40.0 dB",
+      "passed": true
+    },
+    "meanAbsPixelDiff": {
+      "averageNormalized": 0.005996,
+      "minNormalized": 0.005856,
+      "maxNormalized": 0.006156,
+      "average255Scale": "1.53 / 255",
+      "thresholdRequirement": "< 2.0 / 255",
+      "passed": true
+    }
+  },
+  "jpegRobustness": {
+    "Q95": {
+      "quality": 95,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "Q90": {
+      "quality": 90,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "Q85": {
+      "quality": 85,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "Q80": {
+      "quality": 80,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "Q75": {
+      "quality": 75,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "Q70": {
+      "quality": 70,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "Q65": {
+      "quality": 65,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "Q60": {
+      "quality": 60,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "Q55": {
+      "quality": 55,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "Q50": {
+      "quality": 50,
+      "tested": 20,
+      "exactMatches": 0,
+      "successRatePct": 0
+    }
+  },
+  "jpegCutoffSummary": {
+    "lowestFullSuccessQ": 55,
+    "exactCutoffQ": 50,
+    "cutoffDescription": "100% exact recovery maintained down to Q=55; exact cutoff failure occurs at Q=50"
+  },
+  "gaussianNoiseRobustness": {
+    "sigma_2": {
+      "sigma": 2,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "sigma_4": {
+      "sigma": 4,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    },
+    "sigma_8": {
+      "sigma": 8,
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100
+    }
+  },
+  "geometricAttacksHonestReport": {
+    "rescale_96_dpi": {
+      "attack": "Rescale to 96 DPI (Normalized to 150 DPI)",
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100,
+      "v1Status": "PASSED (Normalized)",
+      "failureReason": null
+    },
+    "rescale_120_dpi": {
+      "attack": "Rescale to 120 DPI (Normalized to 150 DPI)",
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100,
+      "v1Status": "PASSED (Normalized)",
+      "failureReason": null
+    },
+    "rescale_200_dpi": {
+      "attack": "Rescale to 200 DPI (Normalized to 150 DPI)",
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100,
+      "v1Status": "PASSED (Normalized)",
+      "failureReason": null
+    },
+    "crop_5pct": {
+      "attack": "5% Boundary Crop (26px translation)",
+      "tested": 20,
+      "exactMatches": 0,
+      "successRatePct": 0,
+      "v1Status": "FAILED (Expected)",
+      "failureReason": "Coordinate phase shift desynchronizes 8x8 block grid (blocks no longer align with PRNG permutation)."
+    },
+    "rotation_2deg": {
+      "attack": "2-Degree Affine Rotation",
+      "tested": 20,
+      "exactMatches": 0,
+      "successRatePct": 0,
+      "v1Status": "FAILED (Expected)",
+      "failureReason": "Rotates 2D frequency axis orientation, perturbing orthogonal DCT basis pairs (3,2) and (2,3)."
+    },
+    "lossless_resave": {
+      "attack": "Lossless re-save",
+      "tested": 20,
+      "exactMatches": 20,
+      "successRatePct": 100,
+      "v1Status": "PASSED",
+      "failureReason": null
+    }
+  },
+  "latenciesMs": {
+    "decryptAndEmbedPerPage": 11.1,
+    "extractPerPage": 4.7,
+    "ledgerCommit3Validators": 38.5,
+    "verifyChainFull": 126.1
+  },
+  "twoCopyDistinctness": {
+    "pairsEvaluated": 190,
+    "payloadHammingDistanceBits": {
+      "totalBits": 96,
+      "averageDifferingBits": 48,
+      "minDifferingBits": 37,
+      "maxDifferingBits": 60,
+      "expectedRandomBits": 48
+    },
+    "pairwisePixelDiff": {
+      "averageNormalized": 0.005891,
+      "maxNormalized": 0.007204,
+      "average255Scale": "1.50 / 255",
+      "thresholdRequirement": "< 2.0 / 255",
+      "passed": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@cryptoshield/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@noble/hashes": "2.4.0",
+    "@noble/post-quantum": "0.7.1",
+    "jpeg-js": "0.4.4",
+    "pdf-lib": "1.17.1",
+    "pngjs": "7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "@types/pngjs": "6.0.5",
+    "typescript": "5.7.2"
+  }
+}

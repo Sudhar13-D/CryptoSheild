@@ -1,0 +1,434 @@
+[
+  {
+    "id": "audit-1790678422749-0vjeo",
+    "timestamp": 1790678422749,
+    "actorId": "inv1",
+    "action": "FORENSIC_ATTRIBUTION_VERIFIED",
+    "details": "Successfully attributed leak to Bob Smith (Field Operative) (WM: 69b14f6538fe482aefe261b3)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678421680-10tkc",
+    "timestamp": 1790678421693,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/CASE-2026-001/extract",
+    "details": "{}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678139784-x9jro",
+    "timestamp": 1790678139784,
+    "actorId": "inv1",
+    "action": "FORENSIC_ATTRIBUTION_VERIFIED",
+    "details": "Successfully attributed leak to Bob Smith (Field Operative) (WM: 116a9a3dd1e25e6f0999eeef)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678139175-92rgq",
+    "timestamp": 1790678139175,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/case-1790678138983-glg48/extract",
+    "details": "{}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678139171-an2j6",
+    "timestamp": 1790678139171,
+    "actorId": "inv2",
+    "action": "CASE_APPROVED",
+    "details": "Approved case case-1790678138983-glg48 (2/3 approvals recorded)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678139113-jrjve",
+    "timestamp": 1790678139113,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/case-1790678138983-glg48/approve",
+    "details": "{\"investigatorId\":\"inv2\",\"timestamp\":1790678139105,\"signatureHex\":\"125fbab57c5f7eb8c77a52e9a0d06f5f8",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678139102-yrmi2",
+    "timestamp": 1790678139102,
+    "actorId": "inv1",
+    "action": "CASE_APPROVED",
+    "details": "Approved case case-1790678138983-glg48 (1/3 approvals recorded)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678139028-yj0sl",
+    "timestamp": 1790678139028,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/case-1790678138983-glg48/approve",
+    "details": "{\"investigatorId\":\"inv1\",\"timestamp\":1790678138987,\"signatureHex\":\"c6277261077fcfe2f50ecf2a4388b372a",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678138985-qcwwg",
+    "timestamp": 1790678138985,
+    "actorId": "inv1",
+    "action": "CASE_CREATED",
+    "details": "Created forensic case case-1790678138983-glg48 for downloaded_bob_leak.pdf",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678138982-7zrj2",
+    "timestamp": 1790678138982,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases",
+    "details": "{\"caseId\":\"CASE-LIVE-1790678138978\",\"title\":\"Forensic Inquest: Intercepted Downloaded PDF Leak\",\"lea",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678138915-tgalo",
+    "timestamp": 1790678138915,
+    "actorId": "bob",
+    "action": "KEY_RELEASED",
+    "details": "Released K2 for doc DOC-AEGIS-2026-001 after committing block 17 with watermark 116a9a3dd1e25e6f0999eeef",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678138862-tnr5d",
+    "timestamp": 1790678138862,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/commit-and-release",
+    "details": "{\"docId\":\"DOC-AEGIS-2026-001\",\"recipientId\":\"bob\",\"signedRecord\":{\"record\":{\"doc_id\":\"DOC-AEGIS-2026",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678138827-54z4s",
+    "timestamp": 1790678138827,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/session",
+    "details": "{\"docId\":\"DOC-AEGIS-2026-001\",\"recipientId\":\"bob\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678118027-k02ic",
+    "timestamp": 1790678118027,
+    "actorId": "admin",
+    "action": "NODE_REPAIRED",
+    "details": "Restored node-1 from consensus majority",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678118021-nwnum",
+    "timestamp": 1790678118021,
+    "actorId": "anonymous",
+    "action": "POST /api/ledger/repair",
+    "details": "{\"nodeId\":\"node-1\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678028146-60t1d",
+    "timestamp": 1790678028146,
+    "actorId": "inv1",
+    "action": "FORENSIC_ATTRIBUTION_VERIFIED",
+    "details": "Successfully attributed leak to Bob Smith (Field Operative) (WM: 76115dca42dc14efb43092e5)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027629-dvogs",
+    "timestamp": 1790678027629,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/case-1790678027447-98m5f/extract",
+    "details": "{}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027616-413t6",
+    "timestamp": 1790678027616,
+    "actorId": "inv2",
+    "action": "CASE_APPROVED",
+    "details": "Approved case case-1790678027447-98m5f (2/3 approvals recorded)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027541-ky4nc",
+    "timestamp": 1790678027541,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/case-1790678027447-98m5f/approve",
+    "details": "{\"investigatorId\":\"inv2\",\"timestamp\":1790678027530,\"signatureHex\":\"63f6afabefb3e65428e85a1d23e91dc29",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027528-xo96v",
+    "timestamp": 1790678027528,
+    "actorId": "inv1",
+    "action": "CASE_APPROVED",
+    "details": "Approved case case-1790678027447-98m5f (1/3 approvals recorded)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027473-f3rhe",
+    "timestamp": 1790678027473,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/case-1790678027447-98m5f/approve",
+    "details": "{\"investigatorId\":\"inv1\",\"timestamp\":1790678027453,\"signatureHex\":\"870d578a03c3108a768a656051217abc2",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027451-vokgu",
+    "timestamp": 1790678027451,
+    "actorId": "inv1",
+    "action": "CASE_CREATED",
+    "details": "Created forensic case case-1790678027447-98m5f for downloaded_bob_leak.pdf",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027447-m85gy",
+    "timestamp": 1790678027447,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases",
+    "details": "{\"caseId\":\"CASE-LIVE-1790678027444\",\"title\":\"Forensic Inquest: Intercepted Downloaded PDF Leak\",\"lea",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027387-wk8ut",
+    "timestamp": 1790678027387,
+    "actorId": "bob",
+    "action": "KEY_RELEASED",
+    "details": "Released K2 for doc DOC-AEGIS-2026-001 after committing block 14 with watermark 76115dca42dc14efb43092e5",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027288-os4j6",
+    "timestamp": 1790678027288,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/commit-and-release",
+    "details": "{\"docId\":\"DOC-AEGIS-2026-001\",\"recipientId\":\"bob\",\"signedRecord\":{\"record\":{\"doc_id\":\"DOC-AEGIS-2026",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790678027259-ru6g0",
+    "timestamp": 1790678027259,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/session",
+    "details": "{\"docId\":\"DOC-AEGIS-2026-001\",\"recipientId\":\"bob\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677990660-clbv2",
+    "timestamp": 1790677990660,
+    "actorId": "inv1",
+    "action": "CASE_CREATED",
+    "details": "Created forensic case case-1790677990658-vxcux for downloaded_bob_leak.pdf",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677990656-n307n",
+    "timestamp": 1790677990656,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases",
+    "details": "{\"caseId\":\"CASE-LIVE-1790677990653\",\"title\":\"Forensic Inquest: Intercepted Downloaded PDF Leak\",\"lea",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677990584-457ib",
+    "timestamp": 1790677990584,
+    "actorId": "bob",
+    "action": "KEY_RELEASED",
+    "details": "Released K2 for doc DOC-AEGIS-2026-001 after committing block 13 with watermark 179acbc8c75f6bac1c0c96e5",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677990518-hfzb7",
+    "timestamp": 1790677990518,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/commit-and-release",
+    "details": "{\"docId\":\"DOC-AEGIS-2026-001\",\"recipientId\":\"bob\",\"signedRecord\":{\"record\":{\"doc_id\":\"DOC-AEGIS-2026",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677990490-fcc7b",
+    "timestamp": 1790677990490,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/session",
+    "details": "{\"docId\":\"DOC-AEGIS-2026-001\",\"recipientId\":\"bob\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677863898-0jtpx",
+    "timestamp": 1790677863898,
+    "actorId": "bob",
+    "action": "KEY_RELEASED",
+    "details": "Released K2 for doc DOC-AEGIS-2026-001 after committing block 12 with watermark f96d66f58679cf81bae884e7",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677863760-mjlly",
+    "timestamp": 1790677863760,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/commit-and-release",
+    "details": "{\"docId\":\"DOC-AEGIS-2026-001\",\"recipientId\":\"bob\",\"signedRecord\":{\"record\":{\"doc_id\":\"DOC-AEGIS-2026",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677863730-s65i7",
+    "timestamp": 1790677863730,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/session",
+    "details": "{\"docId\":\"DOC-AEGIS-2026-001\",\"recipientId\":\"bob\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677822235-yj87e",
+    "timestamp": 1790677822235,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/commit-and-release",
+    "details": "{\"record\":{\"doc_id\":\"DOC-AEGIS-2026-001\",\"doc_hash\":\"c0dcf26d2dabdc0b9cad768f20e2df839afed8c5a59669b",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790677822193-zgaw4",
+    "timestamp": 1790677822193,
+    "actorId": "anonymous",
+    "action": "POST /api/decrypt/session",
+    "details": "{\"docId\":\"DOC-AEGIS-2026-001\",\"recipientId\":\"bob\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790670165465-lhqr9",
+    "timestamp": 1790670165465,
+    "actorId": "admin",
+    "action": "TAMPER_DEMO_TRIGGERED",
+    "details": "Tampered node-1 block 1",
+    "status": "WARN"
+  },
+  {
+    "id": "audit-1790670165456-2niq0",
+    "timestamp": 1790670165456,
+    "actorId": "anonymous",
+    "action": "POST /api/ledger/tamper",
+    "details": "{\"nodeId\":\"node-1\",\"blockIndex\":1}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790670154022-so8wd",
+    "timestamp": 1790670154022,
+    "actorId": "admin",
+    "action": "NODE_REPAIRED",
+    "details": "Restored node-1 from consensus majority",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790670154012-5v3cw",
+    "timestamp": 1790670154012,
+    "actorId": "anonymous",
+    "action": "POST /api/ledger/repair",
+    "details": "{\"nodeId\":\"node-1\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790670126984-g6zo7",
+    "timestamp": 1790670126984,
+    "actorId": "admin",
+    "action": "NODE_REPAIRED",
+    "details": "Restored node-1 from consensus majority",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790670126950-wu52g",
+    "timestamp": 1790670126950,
+    "actorId": "anonymous",
+    "action": "POST /api/ledger/repair",
+    "details": "{\"nodeId\":\"node-1\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790670123403-ov9dt",
+    "timestamp": 1790670123403,
+    "actorId": "admin",
+    "action": "TAMPER_DEMO_TRIGGERED",
+    "details": "Tampered node-1 block 1",
+    "status": "WARN"
+  },
+  {
+    "id": "audit-1790670123378-4zlqb",
+    "timestamp": 1790670123378,
+    "actorId": "anonymous",
+    "action": "POST /api/ledger/tamper",
+    "details": "{\"nodeId\":\"node-1\",\"blockIndex\":1}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790670090420-e8z7s",
+    "timestamp": 1790670090420,
+    "actorId": "inv1",
+    "action": "FORENSIC_ATTRIBUTION_VERIFIED",
+    "details": "Successfully attributed leak to Bob Smith (Field Operative) (WM: 69b14f6538fe482aefe261b3)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790670089449-qsrce",
+    "timestamp": 1790670089449,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/CASE-2026-001/extract",
+    "details": "{}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790669164255-k1ih0",
+    "timestamp": 1790669164255,
+    "actorId": "admin",
+    "action": "NODE_REPAIRED",
+    "details": "Restored node-1 from consensus majority",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790669164246-jvw7x",
+    "timestamp": 1790669164246,
+    "actorId": "anonymous",
+    "action": "POST /api/ledger/repair",
+    "details": "{\"nodeId\":\"node-1\"}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790669163422-t6r4x",
+    "timestamp": 1790669163422,
+    "actorId": "admin",
+    "action": "TAMPER_DEMO_TRIGGERED",
+    "details": "Tampered node-1 block 1",
+    "status": "WARN"
+  },
+  {
+    "id": "audit-1790669163413-5xkqp",
+    "timestamp": 1790669163413,
+    "actorId": "anonymous",
+    "action": "POST /api/ledger/tamper",
+    "details": "{\"nodeId\":\"node-1\",\"blockIndex\":1}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790669163361-wwma1",
+    "timestamp": 1790669163361,
+    "actorId": "inv1",
+    "action": "FORENSIC_ATTRIBUTION_VERIFIED",
+    "details": "Successfully attributed leak to Bob Smith (Field Operative) (WM: 69b14f6538fe482aefe261b3)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790669162410-9od66",
+    "timestamp": 1790669162410,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/CASE-2026-001/extract",
+    "details": "{}",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790669162400-l3ubp",
+    "timestamp": 1790669162400,
+    "actorId": "inv2",
+    "action": "CASE_APPROVED",
+    "details": "Approved case CASE-2026-001 (2/3 approvals recorded)",
+    "status": "SUCCESS"
+  },
+  {
+    "id": "audit-1790669162204-07krn",
+    "timestamp": 1790669162204,
+    "actorId": "anonymous",
+    "action": "POST /api/forensics/cases/CASE-2026-001/approve",
+    "details": "{\"investigatorId\":\"inv2\",\"timestamp\":1790669161871,\"signatureHex\":\"d04708a75e65e3b0f65db8794869e1f01",
+    "status": "SUCCESS"
+  }
+]

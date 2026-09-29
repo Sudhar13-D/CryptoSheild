@@ -1,0 +1,30 @@
+{
+  "name": "cryptoshield",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "shared",
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "build:shared": "npm --workspace=shared run build",
+    "build:server": "npm --workspace=server run build",
+    "build:web": "npm --workspace=web run build",
+    "build": "npm run build:shared && npm run build:server && npm run build:web",
+    "test": "vitest run",
+    "check-offline": "node scripts/check-offline.js",
+    "seed": "node --loader ts-node/esm server/src/seed.ts",
+    "benchmark": "node scripts/benchmark.js",
+    "demo": "node scripts/demo.js"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2",
+    "vitest": "2.1.8"
+  }
+}
