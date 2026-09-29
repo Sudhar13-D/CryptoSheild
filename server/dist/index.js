@@ -2,7 +2,7 @@ import { ServerStore } from './store.js';
 import { createApp } from './app.js';
 import { seedDemoData } from './seed.js';
 const PORT = parseInt(process.env.PORT || '8080', 10);
-const HOST = '127.0.0.1';
+const HOST = process.env.HOST || '0.0.0.0';
 async function main() {
     const store = new ServerStore();
     // If users or documents are empty, seed demo data automatically on first run
@@ -15,7 +15,7 @@ async function main() {
     app.listen(PORT, HOST, () => {
         console.log(`==================================================================`);
         console.log(`🛡️  CRYPTOSHIELD – Forensic Verification System running`);
-        console.log(`📍 Endpoint: http://127.0.0.1:${PORT}`);
+        console.log(`📍 Listening on: http://${HOST}:${PORT}`);
         console.log(`🔒 Mode: FULLY OFFLINE (Zero external network requests)`);
         console.log(`==================================================================`);
     });

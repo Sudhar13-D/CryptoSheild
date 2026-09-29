@@ -17,7 +17,11 @@
     "check-offline": "node scripts/check-offline.js",
     "seed": "node --loader ts-node/esm server/src/seed.ts",
     "benchmark": "node scripts/benchmark.js",
-    "demo": "node scripts/demo.js"
+    "demo": "node scripts/demo.js",
+    "start": "node server/dist/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "devDependencies": {
     "@types/node": "22.10.1",
